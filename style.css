@@ -1,0 +1,81 @@
+.box{
+            border: 20px solid turquoise;
+            width: 99%;
+            height:90vh;
+        }
+        .container1{
+            /* border: 2px solid black; */
+            margin: 20px 0px 0px 50px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .list{
+            display:flex;
+            margin:25px 100px 0px 0px;
+            gap: 30px;
+        }
+        ul{
+            list-style: none;
+            font-size: 20px;
+            color: teal;
+            font-weight: bolder;
+        }
+        ul:hover{
+            color: black;
+            cursor: pointer;
+        }
+        .container2{
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap ;
+            justify-content: space-between;
+        }
+        .detail{
+            /* border: 3px solid black; */
+            padding: 70px 0px 0px 100px;
+        }
+        .title p{
+            font-size: 40px;
+            line-height: 70px;
+        }
+        span{
+            color: turquoise;
+        }
+        .content{
+            /* border: 2px solid black; */
+            margin-top: 50px;
+        }
+        .content p{
+            font-size: 20px;
+            color: grey;
+            line-height: 30px;
+        }
+        .image img{
+            width: 600px;
+            height: 600px;
+        }
+        button{
+            border: none;
+            border-radius: 10px;
+            background-color: turquoise;
+            padding: 0px 20px 10px 20px ;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        button span{
+            padding-top: 6px;
+            color: white;
+            font-size: 20px;
+        }
+        button img{
+            margin-top: 5px;
+            width: 40px;
+            height: 40px
+        }
